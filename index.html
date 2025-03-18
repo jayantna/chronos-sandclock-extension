@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="clock-section">
+            <div class="time" id="current-time">00:00:00</div>
+            <div class="date" id="current-date">Loading date...</div>
+        </div>
+        
+        <div class="age-section">
+            <h2>Your Age</h2>
+            <div id="no-dob-message">
+                <p>Please set your date of birth below:</p>
+                <div class="dob-form">
+                    <input type="date" id="dob-input" class="dob-input">
+                    <button id="save-dob" class="save-btn">Save</button>
+                </div>
+            </div>
+            
+            <div id="age-display" style="display: none;">
+                <div class="age-years" id="age-years">0</div>
+                <div class="age-detail" id="age-detailed">0 years, 0 months, 0 days</div>
+                <div class="age-detail">
+                    <span id="age-hours">0</span> hours, 
+                    <span id="age-minutes">0</span> minutes, 
+                    <span id="age-seconds">0</span> seconds
+                </div>
+                <button id="reset-dob" class="reset-btn" title="Long press for 5 seconds">Reset DOB</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

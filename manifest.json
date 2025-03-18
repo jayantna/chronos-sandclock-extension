@@ -1,0 +1,15 @@
+{
+  "name": "Age Tracker New Tab",
+  "version": "1.0",
+  "description": "Shows current time and tracks your age in milliseconds",
+  "manifest_version": 3,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "icons/9040582_plus_icon_16px.png",
+    "32": "icons/9040582_plus_icon_32px.png",
+    "48": "icons/9040582_plus_icon_48px.png",
+    "128": "icons/9040582_plus_icon_128px.png"
+  }
+}

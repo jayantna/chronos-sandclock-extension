@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f7fa;
+  color: #2d3748;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+}
+
+.clock-section {
+  margin-bottom: 2rem;
+}
+
+.time {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  font-size: 1.2rem;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+}
+
+.age-section {
+  padding: 1rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+}
+
+.age-section h2 {
+  margin-top: 0;
+  color: #3182ce;
+}
+
+.age-years {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2b6cb0;
+  margin: 1rem 0;
+}
+
+.age-detail {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #4a5568;
+}
+
+.age-milliseconds {
+  font-family: monospace;
+  font-size: 1.2rem;
+  background-color: #2b6cb0;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+.dob-form {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dob-input {
+  padding: 0.6rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  font-size: 1rem;
+  min-width: 200px;
+}
+
+.save-btn, .reset-btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: #4299e1;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #3182ce;
+}
+
+.reset-btn {
+  background-color: #c6c6c6;
+  color: white;
+  margin-top: 1rem;
+}
+
+.reset-btn:hover {
+  background-color: #bcbcbc;
+} 

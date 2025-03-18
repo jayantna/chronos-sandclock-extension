@@ -1,4 +1,4 @@
-# Chronos: The Age Voyager
+# Chronos: The Age Sand Clock in New Tab
 
 A sleek Chrome extension that transforms your new tab into a time-traveling dashboard, revealing your precise age down to decimal years calculated from milliseconds.
 

@@ -89,10 +89,12 @@ function updateAge(now, dobString) {
     const hours = Math.floor(ageInMilliseconds / (1000 * 60 * 60) % 24);
     const minutes = Math.floor(ageInMilliseconds / (1000 * 60) % 60);
     const seconds = Math.floor(ageInMilliseconds / 1000 % 60);
-    const decimalYears = years + (ageInMilliseconds % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24 * 365);
+    
+    // Calculate decimal years
+    const decimalYears = (ageInMilliseconds / (1000 * 60 * 60 * 24 * 365.25)).toFixed(10); // 365.25 to account for leap years
 
     // Update the DOM
-    ageYears.textContent = decimalYears.toFixed(10);
+    ageYears.textContent = decimalYears;
     ageDetailed.textContent = `${years} years, ${months} months, ${days} days`;
     ageHours.textContent = hours;
     ageMinutes.textContent = minutes;
